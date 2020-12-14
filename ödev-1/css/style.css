@@ -88,6 +88,10 @@ body{
     margin-bottom: 20px;
     font-weight: 700;
 }
+.register .submit:hover{
+    background-color: #ec46ec;
+    transition: 250ms;
+}
 
 .register .sign-in{
     text-decoration: none;
