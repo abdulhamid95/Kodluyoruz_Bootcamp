@@ -1,0 +1,199 @@
+:root {
+  --button-color: #FC569A;
+  --navbar-link-color: #1B0A42;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 48px;
+  padding: auto;
+}
+
+nav .navbar {
+  margin-left: 80px;
+}
+
+nav .navbar__brand {
+  text-decoration: none;
+  font-family: "Circular Std Book";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  color: #0A1B32;
+  margin-right: 96px;
+}
+
+nav .navbar__brand span {
+  color: var(--button-color);
+}
+
+nav .navbar__items {
+  display: inline-block;
+  padding: 0px;
+}
+
+nav .navbar__item {
+  display: inline-block;
+}
+
+nav .navbar__link {
+  text-decoration: none;
+  margin-right: 38px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--navbar-link-color);
+}
+
+nav .right-navbar {
+  margin-top: 0px;
+  padding-top: 10px;
+}
+
+nav .right-navbar__signin {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--navbar-link-color);
+}
+
+nav .right-navbar__signup {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background: var(--button-color);
+  border: none;
+  padding: 18px 31px;
+  border-radius: 6px;
+  margin: 0px 68px 115px 40.3px;
+}
+
+section .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 115px;
+}
+
+section .container svg {
+  margin-right: 20px;
+}
+
+section .container__blog {
+  margin-left: 200px;
+}
+
+section .container__blog h1 {
+  font-family: "Ramaraja";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 76px;
+  /* or 106% */
+  letter-spacing: 0.02em;
+  color: #1B0A42;
+  width: 495px;
+  margin-bottom: 10px;
+}
+
+section .container__blog p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+  letter-spacing: 0.02em;
+  color: #9A9A9A;
+  width: 581.49px;
+  margin: 10px 19px 68px 0px;
+}
+
+section .container__blog .button {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background: var(--button-color);
+  border: none;
+  padding: 18px 31px;
+  border-radius: 6px;
+}
+
+@media (max-width: 965px) {
+  nav .navbar {
+    margin-left: 30px;
+  }
+  nav .navbar__brand {
+    margin-right: 30px;
+  }
+  nav .right-navbar__signup {
+    margin-right: 30px;
+  }
+  section .container {
+    text-align: center;
+    display: block;
+  }
+  section .container__blog {
+    margin-left: 50px;
+  }
+  section .container__blog h1 {
+    font-size: 45px;
+    margin: auto;
+    line-height: 50px;
+  }
+  section .container__blog p {
+    font-size: 13px;
+    line-height: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  section .container__blog .button {
+    margin: auto;
+  }
+  section .container svg {
+    width: 100%;
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 750px) {
+  nav {
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+  section .container__blog {
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */

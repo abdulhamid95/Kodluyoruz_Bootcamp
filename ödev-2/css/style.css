@@ -10,6 +10,11 @@ body{
     margin: auto;
     margin-top: 50px;
 }
+
+.card:hover{
+    scale: 1.1;
+    transition: .5s;
+}
 .card {
     width: 275px;
     height: 400px;
@@ -42,6 +47,10 @@ body{
     color: rgb(107, 107, 107);
     margin: 15px;
     font-weight: 700;
+}
+
+.card a:hover{
+    color: rgb(51, 51, 51);
 }
 
 .card span{
