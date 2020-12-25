@@ -50,7 +50,11 @@ body{
 }
 
 .card a:hover{
+<<<<<<< HEAD
     color: rgb(51, 51, 51);
+=======
+    color: rgb(51, 51, 51);;
+>>>>>>> 07cb3cd41cb088a7414dd19f699e58d98be08acb
 }
 
 .card span{

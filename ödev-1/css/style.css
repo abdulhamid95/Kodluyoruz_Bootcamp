@@ -89,6 +89,10 @@ body{
     margin-bottom: 20px;
     font-weight: 700;
 }
+.register .submit:hover{
+    background-color: #ec46ec;
+    transition: 250ms;
+}
 
 .register .submit:hover{
     background-color: #ec46ec;
@@ -99,6 +103,7 @@ body{
     font-weight: 700;
     color: royalblue;
 }
+<<<<<<< HEAD
 
 .login-form {
     width: 350px;
@@ -147,3 +152,5 @@ body{
     text-align: left !important;
 }
 
+=======
+>>>>>>> 07cb3cd41cb088a7414dd19f699e58d98be08acb
